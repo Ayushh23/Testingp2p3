@@ -185,7 +185,7 @@ class PromptUpdate(BaseModel):
 
 
 # ================== ADMIN INTERFACE ================
-app.mount("/admin", StaticFiles(directory="admin", html=True), name="admin")
+# app.mount("/admin", StaticFiles(directory="admin", html=True), name="admin")
 
 # ================== INITIALIZATION =================
 initialize_database()
